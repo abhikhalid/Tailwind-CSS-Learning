@@ -1,0 +1,12 @@
+i. Go to package.json file and add this following line under scripts key,
+
+"build": "vite build"
+
+
+ii. now, make sure / is added before style.css file 
+
+href="/style.css"
+
+iii. npm run build
+
+A dist file will be created. Now close this vs code, go to dist folder and select index.html and open it with vs code. open it with live server.

@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+
+.btn{
+    @apply text-sm px-4 py-2 bg-purple-800 text-white rounded-md sm:hover:bg-purple-100 lg:hover:bg-green-500
+        active:bg-gray-500 focus:outline-red-700;
+}
+
+
+@tailwind utilities;
+
+.text-vic{
+    @apply text-yellow-800 bg-green-400;
+}

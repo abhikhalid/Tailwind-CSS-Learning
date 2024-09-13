@@ -1,0 +1,3 @@
+Customizing Tailwind CSS using tailwind.config.js file
+
+ npx tailwindcss init confKhali --full
