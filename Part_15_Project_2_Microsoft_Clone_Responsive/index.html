@@ -8,17 +8,21 @@
 	</head>
 	<body>
 		<div class="flex items-center justify-between p-4 navbar">
-			<div class="flex items-center justify-center">
-				<div class="inline-block p-4 cursor-pointer hamburger">
+			<div class="flex items-center justify-center md:order-2">
+				<div class="inline-block p-4 cursor-pointer hamburger md:hidden">
 					<div class="w-6 h-0.5 my-1 bg-black line"></div>
 					<div class="w-6 h-0.5 my-1 bg-black line"></div>
 					<div class="w-6 h-0.5 my-1 bg-black line"></div>
 				</div>
-				<div class="search">SearchIcon</div>
+				<div class="search md:hidden">SearchIcon</div>
 			</div>
 
-			<div class="text-center logo">Microsoft</div>
-			<div class="text-center cart">Cart Account</div>
+			<div class="text-center logo md:order-1">Microsoft</div>
+			
+			<div class="flex text-center cart md:order-3">
+				<div class="hidden search md:block">SearchIcon</div>
+				<div>Cart Account</div>
+			</div>
 		</div>
 	</body>
 </html>
