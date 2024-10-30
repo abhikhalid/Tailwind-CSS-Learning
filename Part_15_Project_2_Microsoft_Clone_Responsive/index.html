@@ -22,30 +22,38 @@
 
 				<div class="flex text-center logo md:order-1">
 					<div class="p-4">
-						<img class="w-[50%]" src="assets/mslogo.png" alt="" />
+						<img
+							class="w-[50%] flex justify-center"
+							src="assets/mslogo.png"
+							alt=""
+						/>
 					</div>
 					<div
-						class="absolute inset-0 bg-gray-200 w-fit md:space-x-2 md:mx-4 -translate-x-96 md:flex features md:w-auto md:bg-white md:translate-x-0 md:static"
+						class="absolute inset-0 bg-gray-200 w-fit md:space-x-6 md:mx-4 -translate-x-96 md:flex features md:w-auto md:bg-white md:translate-x-0 md:static md:items-center"
 					>
-						<div class="fitem">Microsoft 365</div>
-						<div class="fitem">Office</div>
-						<div class="fitem">Windows</div>
-						<div class="fitem">Surface</div>
-						<div class="fitem">Xbox</div>
-						<div class="fitem">Support</div>
+						<div class="cursor-pointer fitem hover:underline hover:underline-offset-8">Microsoft 365</div>
+						<div class="cursor-pointer fitem hover:underline hover:underline-offset-8">Office</div>
+						<div class="cursor-pointer fitem hover:underline hover:underline-offset-8">Windows</div>
+						<div class="cursor-pointer fitem hover:underline hover:underline-offset-8">Surface</div>
+						<div class="cursor-pointer fitem hover:underline hover:underline-offset-8">Xbox</div>
+						<div class="cursor-pointer fitem hover:underline hover:underline-offset-8">Support</div>
 					</div>
 				</div>
 
 				<div class="flex text-center cart md:order-3">
 					<div class="hidden mr-6 search md:block">All Microsoft</div>
-					<img class="w-4 mr-4" src="assets/search.svg" alt="" />
-					<div>Cart Account</div>
+					<div class="mx-2">Search</div>
+					<img class="w-4 mr-6" src="assets/search.svg" alt="" />
+					<div class="flex pt-1">
+						<img class="w-4 h-4 mr-4" src="assets/cart icon.svg" alt="" />
+						<img class="w-4 h-4 mr-4" src="assets/account icon.svg" alt="" />
+					</div>
 				</div>
 			</div>
 
 			<div class="flex flex-col-reverse slider md:flex-row bg-[#f2f2f2]">
 				<div
-					class="flex flex-col items-center justify-center py-12 left md:items-baseline"
+					class="flex flex-col items-center justify-center py-12 ml-32 space-y-5 left md:items-baseline"
 				>
 					<h1 class="mx-5 text-2xl font-medium md:text-4xl">
 						Surface Laptop 4
@@ -63,22 +71,28 @@
 				</div>
 			</div>
 
-			<div class="flex flex-col space-y-6 promo md:flex-row">
-				<div class="flex items-center mx-4 mt-6 space-x-2 item">
+			<div
+				class="flex flex-col justify-center space-y-6 promo md:flex-row"
+			>
+				<div class="flex items-center mx-4 mt-6 space-x-2 item md:flex-col">
 					<img src="assets/ic1.png" alt="" />
-					<span class="font-medium">Choose your Microsoft 365</span>
+					<span class="my-4 text-sm font-medium md:w-[8rem] md:text-center"
+						>Choose your Microsoft 365</span
+					>
 				</div>
-				<div class="flex items-center mx-4 space-x-2 item">
+				<div class="flex items-center mx-4 space-x-2 item md:flex-col">
 					<img src="assets/ic2.webp" alt="" />
-					<span class="font-medium">Explore Surface devices</span>
+					<span class="my-4 text-sm font-medium md:w-[8rem] md:text-center"
+						>Explore Surface devices</span
+					>
 				</div>
-				<div class="flex items-center mx-4 space-x-2 item">
+				<div class="flex items-center mx-4 space-x-2 item md:flex-col">
 					<img src="assets/ic3.webp" alt="" />
-					<span class="font-medium">Buy Xbox games</span>
+					<span class="my-4 text-sm font-medium md:w-[8rem] md:text-center">Buy Xbox games</span>
 				</div>
-				<div class="flex items-center mx-4 space-x-2 item">
+				<div class="flex items-center mx-4 space-x-2 item md:flex-col">
 					<img src="assets/ic4.png" alt="" />
-					<span class="font-medium">Get Windows 11</span>
+					<span class="my-4 text-sm font-medium md:w-[8rem] md:text-center">Get Windows 11</span>
 				</div>
 			</div>
 		</div>
